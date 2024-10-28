@@ -1,0 +1,31 @@
+[package]
+name = "lavish"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+shrs = { path = "../shrs/crates/shrs" }
+shrs_autocd = { path = "../shrs/plugins/shrs_autocd" }
+shrs_cd_tools = { path = "../shrs/plugins/shrs_cd_tools" }
+shrs_command_timer = { path = "../shrs/plugins/shrs_command_timer" }
+shrs_run_context = { path = "../shrs/plugins/shrs_run_context" }
+shrs_mux = { path = "../shrs/plugins/shrs_mux"}
+shrs_cd_stack = { path = "../shrs/plugins/shrs_cd_stack"}
+shrs_file_history = { path = "../shrs/plugins/shrs_file_history"}
+shrs_file_logger = { path = "../shrs/plugins/shrs_file_logger"}
+shrs_rhai = { path = "../shrs/plugins/shrs_rhai"}
+shrs_rhai_completion = { path = "../shrs/plugins/shrs_rhai_completion"}
+
+
+anyhow = "1"
+crossterm = "0.26"
+dirs = "5.0.1"
+dotenvy = "0.15.7"
+env_logger = "0.10"
+log = "0.4"
+
+
+[build-dependencies]
+chrono = "0.4"
+
+
